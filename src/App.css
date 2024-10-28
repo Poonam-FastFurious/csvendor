@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.app-menu.closed {
+  transform: translateX(-100%);
+}
+
+.app-menu.open {
+  transform: translateX(0);
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  .app-menu {
+    width: 100%;
+  }
+}
+
+.text-truncate {
+  display: block;
+  width: 150px; /* Adjust width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-truncatewebsite {
+  display: block;
+  width: 150px; /* Adjust width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-container {
+  width: 100%; /* Set this to your preferred width, e.g., 50% or 300px */
+  height: 300px; /* Set a fixed height or use auto */
+  max-width: 400px; /* Optionally set a maximum width */
+  margin: 0 auto; /* Center the chart horizontally */
+}
+
+.cth-bg {
+  background-color: #d68a32;
+}
