@@ -12,6 +12,7 @@ import Listproduct from "./Componnets/Product/Listproduct";
 import Header from "./Componnets/Header";
 import AddProduct from "./Componnets/Product/AddProduct";
 // import StockOut from "./Componnets/Product/StockOut";
+// category routes
 import Category from "./Componnets/Category/Category";
 import OrderList from "./Componnets/Order/OrderList";
 import Transaction from "./Componnets/Transaction/Transaction";
